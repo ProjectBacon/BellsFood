@@ -1,0 +1,242 @@
+.bells {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 70px;
+  color: #9a351a;
+   text-shadow: 5px 2px 2px #ffffff;
+  position: absolute;
+  left: 800px;
+  top: 0px;
+}
+
+.drive {
+   text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 70px;
+  color: #9a351a;
+   text-shadow: 5px 2px 2px #ffffff;
+  position: absolute;
+  left: 670px;
+  top: 110px;
+}
+
+.bun1 {
+  height: 280px;
+  width: 30%;
+  border-radius: 50%;
+  position: absolute;
+  left: 660px;
+  top: 120px;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #fbb300;
+}
+
+.tomato {
+   height: 280px;
+  width: 30%;
+  border-radius: 50%;
+  position: absolute;
+  left: 660px;
+  top: 135px;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #e63c14;
+}
+
+.lettuce{
+  height: 280px;
+  width: 31%;
+  border-radius: 50%;
+  position: absolute;
+  left: 650px;
+  top: 145px;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #618a00;
+}
+
+.cheese {
+  width: 580px;
+  height: 150px;
+  background: #f3e416;
+  left: 655px;
+  top: 270px;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  position: absolute;
+}
+
+.burger {
+  height: 300px;
+  width: 32%;
+  border-radius: 50%;
+  position: absolute;
+  left: 640px;
+  top: 175px;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #452112;
+}
+
+.bun2 {
+  height: 280px;
+  width: 30%;
+  border-radius: 50%;
+  position: absolute;
+  left: 660px;
+  top: 235px;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #fbb300;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #fbb300;
+}
+
+li {
+  float: left;
+  width: 315px;
+}
+
+li a {
+  display: table;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 125px;
+  color: #9a351a;
+  width: 10px;
+}
+
+li a:hover {
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+body {
+  margin: 0px;
+   background-color: #FFF;
+  background-size: 120px 120px;
+  background-position: 0 0, 60px 60px;
+  background-image: linear-gradient(45deg, red 25%, transparent 25%, transparent 75%, red 75%, red),
+                    linear-gradient(45deg, red 25%, transparent 25%, transparent 75%, red 75%, red);
+}
+
+.base {
+   width: 100%;
+  height: 150px;
+  background: #d8d8d8;
+  top: 600px; 
+  position: absolute;
+  text-align: center;
+  z-index: -3;
+  
+}
+
+
+.pillar1 {
+  width: 100px;
+  height: 150%;
+  background: #2bc6ff;
+  z-index: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  position: absolute;
+  left: 0%;
+}
+
+.pillar2 {
+  width: 100px;
+  height: 150%;
+  background: #2bc6ff;
+  z-index: 0;
+  right: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  position: absolute;
+}
+
+.pt1 {
+ width: 0px;
+      height: 0px;
+      border-bottom: 100px solid #2bc6ff;
+      border-right: 100px solid transparent;
+  position: absolute;
+   display: block;
+}
+
+.pt2 {
+ width: 0px;
+      height: 0px;
+  right:0px;
+      border-bottom: 100px solid #2bc6ff;
+      border-left: 100px solid transparent;
+  position: absolute;
+   display: block;
+}
+.row {
+  display: block;
+  position: absolute;
+  flex-wrap: wrap;
+  background-color: #51e260; 
+  width: 100%;
+  top: 90%;
+  left: 100px;
+  height: 600px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.column img {
+  margin-top: 12px;
+  vertical-align: middle;
+}
+
+.column2 {
+   flex: 50%;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.column2 img {
+  margin-top: 12px;
+  vertical-align: middle;
+  left: 50%;
+}
+  
+ .base5 {
+  left: 0%;
+   width: 100%;
+  height: 300px;
+  background: #d8d8d8;
+  top: 150%; 
+  position: absolute;
+  text-align: center;
+  display: block;
+  padding-top: 100px;
+  font-size: 40px;
+}
